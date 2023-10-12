@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>LüShoes</title>
+</head>
+<body>
+
+    <header class="nav-contenedor">
+        <nav class="navbar">
+            <a href="index.html"><h1 class="navbar-logo">Lüshoes</h1></a>
+            <p class="carrito" id="carrito"><i class="bi bi-bag"></i> <span id="numeroProductos" class="numero-productos"></span></p>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="main-contenedor">
+            <h2>Shoes & Bags Store</h2>
+            <p>Envío gratis a todo el país</p>
+        </div>
+    </main> 
+
+    <div class="filtro-botones">
+        <button id="verTodos" class="boton">Ver Todos los Productos</button>
+        <button id="verZapatos" class="boton">Ver Zapatos</button>
+        <button id="verCarteras" class="boton">Ver Carteras</button>
+        <input type="text" id="busquedaInput" class="busqueda-input" placeholder="Buscar producto por nombre">
+        <button id="buscarLupa" class="buscar-lupa"><i class="bi bi-search"></i></button>
+    </div> 
+
+    <div class="ordenar-contenedor">
+        <button id="ordenarMenor" class="ordenar-boton">Ordenar todos los productos por precio <i class="bi bi-arrow-up"></i></button>
+        <button id="ordenarMayor" class="ordenar-boton">Ordenar todos los productos por precio <i class="bi bi-arrow-down"></i></button>
+    </div>
+    
+    <section id="store" class="store"></section>
+
+    <section id="carritoContenedor" class="carrito-contenedor"></section>
+
+    <footer class="footer">
+        <p>LüShoes © 2023</p>
+        <div class="redes">
+            <a href="https://www.tiktok.com/"><i class="bi bi-tiktok"></i></a>
+            <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

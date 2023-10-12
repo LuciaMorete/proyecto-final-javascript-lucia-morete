@@ -24,7 +24,7 @@ class Producto {
 }
 
 const productos = [];
-productos.push(new Producto(1, 'Stiletos', 'zapatos', 50000, 1, `./assets/stiletos.jpg` ));
+productos.push(new Producto(1, 'Stiletos', 'zapatos', 50000, 1, './assets/stiletos.jpg' ));
 productos.push(new Producto(2, 'Botas', 'zapatos', 40000, 1, './assets/botas.jpg'));
 productos.push(new Producto(3, 'Zapatillas', 'zapatos', 30000, 1, './assets/zapatillas.jpg'));
 productos.push(new Producto(4, 'Borcegos', 'zapatos', 45000, 1, './assets/borcegos.jpg'));

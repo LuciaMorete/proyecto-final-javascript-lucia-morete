@@ -34,25 +34,15 @@ a {
     cursor: pointer;
 }
 
-/* .main {
-    background-size: cover;
-    background-position: center;
-    height: 700px;
-    background-image: url(../assets/banner.jpg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
 .main {
-    background-size: 100% 100%; /* Ajusta tanto el ancho como el alto al 100% */
+    background-size: 100% 100%;
     background-position: center;
-    min-height: 700px; /* Cambia 'height' a 'min-height' para evitar que el contenedor sea demasiado pequeño */
+    min-height: 700px;
     background-image: url(../assets/banner.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-repeat: no-repeat; /* Evita que se repita la imagen */
+    background-repeat: no-repeat;
 }
 .main-contenedor {
     text-align: center;

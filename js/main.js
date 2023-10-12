@@ -24,18 +24,18 @@ class Producto {
 }
 
 const productos = [];
-productos.push(new Producto(1, 'Stiletos', 'zapatos', 50000, 1, './assets/stiletos.jpg' ));
-productos.push(new Producto(2, 'Botas', 'zapatos', 40000, 1, './assets/botas.jpg'));
-productos.push(new Producto(3, 'Zapatillas', 'zapatos', 30000, 1, './assets/zapatillas.jpg'));
-productos.push(new Producto(4, 'Borcegos', 'zapatos', 45000, 1, './assets/borcegos.jpg'));
-productos.push(new Producto(5, 'Sandalias', 'zapatos', 20000, 1, './assets/sandalias.jpg'));
-productos.push(new Producto(6, 'Bolso', 'carteras', 60000, 1, './assets/bolso.jpg'));
-productos.push(new Producto(7, 'Cartera', 'carteras', 20000, 1, './assets/cartera.jpg'));
-productos.push(new Producto(8, 'Minibag', 'carteras', 70000, 1, './assets/minibag.jpg'));
-productos.push(new Producto(9, 'Mochila', 'carteras', 45000, 1, './assets/mochila.jpg'));
-productos.push(new Producto(10, 'Tote Bag', 'carteras', 50000, 1, './assets/totebag.jpg'));
-productos.push(new Producto(11, 'Riñonera', 'carteras', 30000, 1, './assets/rinionera.jpg'));
-productos.push(new Producto(12, 'Ojotas', 'zapatos', 15000, 1, './assets/ojotas.jpg'));
+productos.push(new Producto(1, 'Stiletos', 'zapatos', 50000, 1, '/assets/stiletos.jpg' ));
+productos.push(new Producto(2, 'Botas', 'zapatos', 40000, 1, '/assets/botas.jpg'));
+productos.push(new Producto(3, 'Zapatillas', 'zapatos', 30000, 1, '/assets/zapatillas.jpg'));
+productos.push(new Producto(4, 'Borcegos', 'zapatos', 45000, 1, '/assets/borcegos.jpg'));
+productos.push(new Producto(5, 'Sandalias', 'zapatos', 20000, 1, '/assets/sandalias.jpg'));
+productos.push(new Producto(6, 'Bolso', 'carteras', 60000, 1, '/assets/bolso.jpg'));
+productos.push(new Producto(7, 'Cartera', 'carteras', 20000, 1, '/assets/cartera.jpg'));
+productos.push(new Producto(8, 'Minibag', 'carteras', 70000, 1, '/assets/minibag.jpg'));
+productos.push(new Producto(9, 'Mochila', 'carteras', 45000, 1, '/assets/mochila.jpg'));
+productos.push(new Producto(10, 'Tote Bag', 'carteras', 50000, 1, '/assets/totebag.jpg'));
+productos.push(new Producto(11, 'Riñonera', 'carteras', 30000, 1, '/assets/rinionera.jpg'));
+productos.push(new Producto(12, 'Ojotas', 'zapatos', 15000, 1, '/assets/ojotas.jpg'));
 
 // Array para iniciar el carrito de compras:
 let carrito = JSON.parse(localStorage.getItem('guardar')) || [];

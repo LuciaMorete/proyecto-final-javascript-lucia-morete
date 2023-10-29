@@ -1,0 +1,99 @@
+[
+    {
+        "codigo": 1,
+        "producto": "Stiletos",
+        "tipoDeProducto": "zapatos",
+        "cantidad": 1,
+        "img": "./assets/stiletos.jpg",
+        "precio": 50000
+    },
+    {
+        "codigo": 2,
+        "producto": "Botas",
+        "tipoDeProducto": "zapatos",
+        "cantidad": 1,
+        "img": "./assets/botas.jpg",
+        "precio": 40000
+    },
+    {
+        "codigo": 3,
+        "producto": "Zapatillas",
+        "tipoDeProducto": "zapatos",
+        "cantidad": 1,
+        "img": "./assets/zapatillas.jpg",
+        "precio": 30000
+    },
+    {
+        "codigo": 4,
+        "producto": "Borcegos",
+        "tipoDeProducto": "zapatos",
+        "cantidad": 1,
+        "img": "./assets/borcegos.jpg",
+        "precio": 45000
+    },
+    {
+        "codigo": 5,
+        "producto": "Sandalias",
+        "tipoDeProducto": "zapatos",
+        "cantidad": 1,
+        "img": "./assets/sandalias.jpg",
+        "precio": 20000
+    },
+    {
+        "codigo": 6,
+        "producto": "Bolso",
+        "tipoDeProducto": "carteras",
+        "cantidad": 1,
+        "img": "./assets/bolso.jpg",
+        "precio": 60000
+    },
+    {
+        "codigo": 7,
+        "producto": "Cartera",
+        "tipoDeProducto": "carteras",
+        "cantidad": 1,
+        "img": "./assets/cartera.jpg",
+        "precio": 20000
+    },
+    {
+        "codigo": 8,
+        "producto": "Minibag",
+        "tipoDeProducto": "carteras",
+        "cantidad": 1,
+        "img": "./assets/minibag.jpg",
+        "precio": 70000
+    },
+    {
+        "codigo": 9,
+        "producto": "Mochila",
+        "tipoDeProducto": "carteras",
+        "cantidad": 1,
+        "img": "./assets/mochila.jpg",
+        "precio": 45000
+    },
+    {
+        "codigo": 10,
+        "producto": "Tote Bag",
+        "tipoDeProducto": "carteras",
+        "cantidad": 1,
+        "img": "./assets/totebag.jpg",
+        "precio": 50000
+    },
+    {
+        "codigo": 11,
+        "producto": "Riñonera",
+        "tipoDeProducto": "carteras",
+        "cantidad": 1,
+        "img": "./assets/rinionera.jpg",
+        "precio": 30000
+    },
+    {
+        "codigo": 12,
+        "producto": "Ojotas",
+        "tipoDeProducto": "zapatos",
+        "cantidad": 1,
+        "img": "./assets/ojotas.jpg",
+        "precio": 15000
+    }
+]
+

@@ -375,6 +375,12 @@ body.dark-mode .carrito-header {
     width: 120px;
 }
 
+.carrito-contenedor p {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 .total-pagar {
     font-size: 25px;
     padding: 20px;
@@ -650,6 +656,7 @@ body.dark-mode .inputs input {
     color: var(--clr-main);
 }
 
+/* Media querys: */
 @media (min-width: 576px) and (max-width: 768px) {
     /* Main */
     .main h2 {
@@ -710,6 +717,10 @@ body.dark-mode .inputs input {
         width: 60px;
     }
 
+    .carrito-contenedor p {
+        font-size: 20px;
+    }
+
     /* Sweet Alert */
     .resumen-titulo {
         font-size: 20px;
@@ -756,16 +767,17 @@ body.dark-mode .inputs input {
     .filtro-botones {
         flex-direction: column;
         align-items: center;
+        margin: 50px 20px 0px 20px;
     }
 
     .filtro-boton {
         padding: 7px 12px;
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .busqueda-input {
         padding: 7px;
-        font-size: 13px;
+        font-size: 15px;
         margin-left: 0px;
         min-width: 160px;
     }
@@ -777,9 +789,9 @@ body.dark-mode .inputs input {
     }
 
     .ordenar-boton {
-        margin: 10px 20px 0px 20px;
-        padding: 7px;
-        font-size: 14px;
+        margin: 10px auto;
+        padding: 10px;
+        font-size: 12px;
     }
 
       /* Store */
@@ -824,6 +836,10 @@ body.dark-mode .inputs input {
         width: 50px;
     }
 
+    .carrito-contenedor p {
+        font-size: 20px;
+    }
+
     /* Footer: */
     .footer p {
     font-size: 15px;
@@ -839,7 +855,22 @@ body.dark-mode .inputs input {
     /* Inicio Sesión y Registro: */
     .modal-contenido {
         width: 70%;
-        margin: 20% auto;
+        margin: 30% auto;
+    }
+
+    /* Sweet Alert */
+    .resumen-titulo {
+        font-size: 20px;
+    }
+
+    .total-resumen {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 0px;
+    }
+
+    .swal2-popup {
+        font-size: 12px;
     }
 }
 
@@ -870,14 +901,6 @@ body.dark-mode .inputs input {
         flex-direction: column;
         align-items: center;
         margin: 50px 20px 0px 20px;
-    }
-
-    .filtro-botones {
-        text-align: center;
-        
-        display: flex;
-        justify-content: center;
-        gap: 15px;
     }
 
     .filtro-boton {
@@ -912,12 +935,10 @@ body.dark-mode .inputs input {
 
     .contenido {
         margin: 10px auto;
-        width: 80%;
     }
 
     .contenido img {
-        width: 90%;
-        height: 30vh;
+        height: 40vh;
     }
 
     .boton {
@@ -973,6 +994,10 @@ body.dark-mode .inputs input {
         width: 50px;
     }
 
+    .carrito-contenedor p {
+        font-size: 15px;
+    }
+
     .carrito-botones {   
         padding: 7px 12px;
         font-size: 12px;
@@ -999,6 +1024,22 @@ body.dark-mode .inputs input {
     /* Inicio Sesión y Registro: */
     .modal-contenido {
         width: 70%;
-        margin: 20% auto;
+        margin: 30% auto;
     }
+
+    /* Sweet Alert */
+    .resumen-titulo {
+        font-size: 20px;
+    }
+
+    .total-resumen {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 0px;
+    }
+
+    .swal2-popup {
+        font-size: 12px;
+    }
+
 }

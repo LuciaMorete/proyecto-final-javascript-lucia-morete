@@ -202,7 +202,6 @@ function funcionarCarrito() {
     if (carrito.length === 0) {
         const carritoVacioMensaje = document.createElement('p');
         carritoVacioMensaje.textContent = 'Tu carrito de compras está vacío.';
-        carritoVacioMensaje.classList = 'total-pagar';
         carritoContenedor.append(carritoVacioMensaje);
     } else {
         carrito.forEach((producto) => {
@@ -398,6 +397,9 @@ vistaCarrito.addEventListener('click', () => {
         modal.style.display = 'none';
         modalInicioSesionAbierto = false;
     }
+    if (modalRegistro.style.display === 'block') {
+        modalRegistro.style.display = 'none';
+    }
     funcionarCarrito();
     cantidadAgregados();
 });
@@ -468,6 +470,9 @@ cerrarModal.addEventListener('click', () => {
 botonRegistrarse.addEventListener('click', () => {
     modalRegistro.style.display = 'block';
     modal.style.display = 'none';
+    if (carritoContenedor.style.display !== 'none') {
+        modalRegistro.style.display = 'none';
+    }
 });
 
 cerrarModalRegistro.addEventListener('click', () => {

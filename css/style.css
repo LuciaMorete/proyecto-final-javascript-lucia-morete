@@ -1054,13 +1054,17 @@ body.dark-mode .inputs input {
     }
 
     .total-resumen {
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 600;
         padding: 0px;
     }
 
     .swal2-popup {
         font-size: 15px;
+    }
+
+    .swal2-title {
+        font-size: 20px;
     }
 
 }

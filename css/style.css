@@ -1050,17 +1050,17 @@ body.dark-mode .inputs input {
 
     /* Sweet Alert */
     .resumen-titulo {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .total-resumen {
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 600;
         padding: 0px;
     }
 
     .swal2-popup {
-        font-size: 12px;
+        font-size: 15px;
     }
 
 }
